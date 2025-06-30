@@ -6,6 +6,7 @@ vim.cmd("set shiftwidth=4")
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.signcolumn = "number"
+vim.cmd("set signcolumn=yes:2")
 
 require("config.lazy")
 
